@@ -15,7 +15,7 @@ spec:
       labels:
         tier: frontend
     spec:
-       containers:
+      containers:
       - name: bearapp
         image: supergiantkir/animals:bear
       volumes:
