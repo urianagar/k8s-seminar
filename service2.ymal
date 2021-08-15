@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: bear-deployment
+  name: my-bear-deployment
 spec:
   selector:
     matchLabels:
@@ -21,7 +21,7 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: moose-deployment
+  name: my-moose-deployment
 spec:
   selector:
     matchLabels:
@@ -43,7 +43,7 @@ spec:
 kind: Service      
 apiVersion: v1     
 metadata:
-  name: animals-svc
+  name: my-animals-svc
 spec:
   selector:
     app: animals    
